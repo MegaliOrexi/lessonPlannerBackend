@@ -31,7 +31,7 @@ const openai = new OpenAI({
 
 app.post('/generate-lesson-plan', async (req, res) => {
   try {
-    res.setHeader("Access-Control-Allow-Origin", "https://lessonplanner-ae186.web.app/);
+    res.setHeader("Access-Control-Allow-Origin", "https://lessonplanner-ae186.web.app");
     res.setHeader("Access-Control-Allow-Methods", "POST, GET, PUT");
     res.setHeader("Access-Control-Allow-Headers", "Content-Type");
     const { prompt } = req.body;
