@@ -5,7 +5,7 @@ require('dotenv').config();
 
 const app = express();
 
-const allowedOrigins = ['https://lessonplanner-86c7.onrender.com'];
+const allowedOrigins = ['https://lessonplanner-86c7.onrender.com', 'https://lessonplanner-ae186.web.app/'];
 
 // Middleware
 app.use(express.json());
